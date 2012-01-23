@@ -1,0 +1,32 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+
+#map_canvas { height: 100% }
+
+#info_panel {
+  position: absolute;
+  right: 0px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 10px;
+    
+  background-color: #FFFFFF;
+  opacity: 0.9;
+    
+  width: 400px;
+  height: auto;
+  z-index: 2;
+    
+  font-family: helvetica, arial;
+  
+  -moz-box-shadow: 5px 5px 9px #888;
+  -webkit-box-shadow: 5px 5px 9px #888;
+  box-shadow: 5px 5px 9px #888;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+h1 {
+  font-size: 20px;
+  -webkit-margin-before: 0px;
+}
