@@ -16,8 +16,6 @@ class MainPage(webapp.RequestHandler):
     zoom = 3
     
     today = date.today()
-    # TODO(mattak): Make sure to remove the hardcoded line before going on the plane!
-    today = today.replace(2012, 01, 22)
     
     formatted_day = "%s/%s/%s" % (today.month, today.day, today.year)
     
