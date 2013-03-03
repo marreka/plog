@@ -8,11 +8,12 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 class MainPage(webapp.RequestHandler):
   def get(self):
     # Non changing keys
-    api_key = "AIzaSyD93XmVS5O-lZnc4Gi5RA2QAW5nuV_W5XE"
-    table_id = "2710811"
+    api_key = "<Google Maps API key>"
+    table_id = "<Fusion Table ID>"
+    analytics_acct_id = "<Google Analytics Account ID>"
 
     # Define map parameters
-    map_center = "42.0, -30.0"
+    map_center = "<Center of Map represented by lat, lng>"
     zoom = 3
     
     today = date.today()
@@ -31,6 +32,7 @@ class MainPage(webapp.RequestHandler):
       'api_key': api_key,
       'map_center': map_center,
       'table_id': table_id,
+      'analytics_acct_id': analytics_acct_id,
       'today': formatted_day,
       'where_condition': where_condition,
       'zoom': zoom,
