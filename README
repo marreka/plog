@@ -1,6 +1,6 @@
 This is a quick and dirty project I wrote to track my travel in Europe.
 This is a Google App Engine application using the Google Maps API. If you want to see it in action, check out http://whereismattak.appspot.com.
 
-The code is very basic and there's a lot of hardcoded stuff in there. In particular, the Maps API key and fusion table ID. This stuff is already visibile in the javascript at the above site (and the API key only works on the above site), so please don't try anything nasty.
+The code is very basic and I do intend to extend it to be more extensible. Feel free to fork it and have your own data displayed! Just make sure to go through the main.py file and update everything in between the < and > tags.
 
-If you want to fork it and play around, go ahead! But please don't judge my coding based on this code. I've spent all of two hours to figure out app engine, the Maps API, fusion table integration, and styling. It's been fun hacking this stuff together.
+The code itself is super basic and hacked together, so I apologize for that :) At some point, I'll go through and make it awesome-er.
